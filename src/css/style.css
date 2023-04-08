@@ -1,0 +1,24 @@
+.btn-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.btn-pagination-back .btn-pagination-back {
+    /* display: block;
+    padding: 8px;
+    margin: 8px; */
+    cursor: pointer;
+}
+
+.btn-pagination-current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(209, 20, 20);
+}
